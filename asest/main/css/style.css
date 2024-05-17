@@ -33,4 +33,22 @@
     font-weight: 800;
     src: url('../fonts/rubik-v28-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
          url('../fonts/rubik-v28-latin-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
-  }x    
+  }
+  /* ######################## Home sektion begin ######################## */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: "RUBIK";
+     font-size: 16px;
+     font-weight: 400;
+}
+.logo_1{
+     font-family: "RUBIK";
+     font-weight: 500;
+}
+
+
+    /*######################## Home sektion end ########################*/
