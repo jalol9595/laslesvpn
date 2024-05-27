@@ -35,8 +35,6 @@
           url('../fonts/rubik-v28-latin-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
    }
  
- 
- /* ---------------------------- Home Section Begin ---------------------------- */
  * {
       margin: 0;
       padding: 0;
@@ -47,35 +45,107 @@
       font-family: 'Rubik';
       font-size: 16px;
       font-weight: 400;
+      color: #4F5665;
  }
+ 
+ /* ---------------------------- Home Section Begin ---------------------------- */
+ .home {
+      height: 100vh;
+ }
+ 
  /* navbar section begin */
  .logo_1 {
-      font-family: 'Rubik';
       font-weight: 500;
       font-size: 20px;
  }
  .logo_2 {
-      font-family: 'Rubik';
       font-weight: 700;
       font-size: 20px;
  }
+ 
  .sign_in {
-     font-weight: 500;
-     text-decoration: none;
-     color: #0B132A;
+      font-weight: 500;
+      text-decoration: none;
+      color: #0B132A;
  }
- .sing_up {
-     font-weight: 500;
-     text-decoration: none;
-     padding: 13px 45px;
-     color: #F53855;
-     border-radius: 50px;
-     border: 1px solid #F53855 ;
-     transition: 0.4s;
+ .sign_up {
+      font-weight: 500;
+      text-decoration: none;
+      padding: 13px 45px;
+      color: #F53855;
+      border-radius: 50px;
+      border: 1px solid #F53855;
+      transition: 0.4s;
  }
- .sing_up:hover {
-     background-color: #F53855;
-     color: white;
+ 
+ .sign_up:hover {
+      background-color: #F53855;
+      color: white;
  }
  /* navbar section end */
+ 
+ 
+ .home_btn {
+      text-decoration: none;
+      background-color: #F53838;
+      font-weight: 700;
+      color: white;
+      padding: 17px 50px;
+      border-radius: 10px;
+      box-shadow: rgba(245, 56, 56, 0.35) 0px 30px 40px -7px;
+      display: inline-block;
+ }
+ 
+ .home_btn:hover {
+      background-color: #D32F2F;
+ }
+ 
+ .home_header {
+      font-size: 50px;
+      font-weight: 500;
+      color: #0B132A;
+ }
  /* ---------------------------- Home Section End ---------------------------- */
+ 
+ 
+ 
+ /* ---------------------------- Users Section Begin ---------------------------- */
+ .users {
+      border-radius: 10px;
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+ }
+ 
+ .user_header {
+      font-weight: 700;
+      font-size: 25px;
+      color: #0B132A;
+      margin: 0;
+ }
+ .user_text {
+      font-size: 20px;
+      margin:0;
+ }
+ 
+ .line {
+      height: 100%;
+      width: 2px;
+      background-color: #EEEFF2;
+ }
+ /* ---------------------------- Users Section End ---------------------------- */
+ /* ---------------------------- Features Section Begin ---------------------------- */
+ .correct_text{
+     margin: 0;
+     font-size: 14px;
+ }
+ .header_text{
+     font-size: 35px;
+     font-weight: 500;
+     color: #0B132A;
+ }
+ /* ---------------------------- Features Section End ---------------------------- */
+ 
+ @media screen and (max-width: 768px) {
+      .home {
+           height: 100% !important;
+      }
+ }
