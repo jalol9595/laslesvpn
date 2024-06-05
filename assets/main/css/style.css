@@ -185,7 +185,51 @@
       border: 2px solid #DDDDDD;
       border-radius: 10px;
  }
+ 
+ .month {
+      color: #4F5665;
+      font-weight: 400;
+      font-size: 25px;
+ }
+ 
+ .card_cs_premium {
+      border-color: rgba(245, 56, 56, 1);
+ }
+ 
+ .btn_premium {
+      background-color: #F53838;
+      color: #fbfbfb;
+ }
+ 
+ .btn_premium:hover {
+      background-color: #fbfbfb;
+      color: #F53838;
+ }
  /* ---------------------------- Plan Section End ---------------------------- */
+ 
+ 
+ 
+ /* ---------------------------- Comment Section Begin ---------------------------- */
+ .comment {
+      padding: 30px;
+      border: 2px solid rgba(221, 221, 221, 1);
+      border-radius: 10px;
+ }
+ .author{
+     font-weight: 500;
+     font-size: 18px;
+ }
+ .contry{
+     color: rgba(79,86,101, 1);
+     font-size: 14px;
+ }
+ .massage{
+     color: #0B132A;
+ }
+ .comment-page .carusel-control-prev{
+     background: red;
+ }
+ /* ---------------------------- Comment Section End ---------------------------- */
  
  
  @media screen and (max-width: 768px) {
@@ -193,15 +237,4 @@
            height: 100% !important;
       }
  }
- .month{
-     color: #4F5665;
-     font-weight: 400;
-     font-size: 25px;
- }
-.card-cs-premium{
-     border-color: #F53838;
-}
-.btn_premium:hover{
-     background-color: #F53838;
-     color: #fbfbfb;
-}
+ 
