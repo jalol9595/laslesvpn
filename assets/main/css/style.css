@@ -57,6 +57,7 @@
  .logo_1 {
       font-weight: 500;
       font-size: 20px;
+      color: #0B132A;
  }
  .logo_2 {
       font-weight: 700;
@@ -252,7 +253,7 @@
  .comment-page .carousel-control-prev:hover,
  .comment-page .carousel-control-next:hover {
       background-color: #F53838;
-      background-image: url("/assets/main/images/next_arow.svg");
+      background-image: url("/assets/main/images/netflix.svg");
       rotate: 360deg;
  }
  .comment-page .carousel-control-prev:hover {
@@ -262,20 +263,78 @@
  .comment-page .carousel-control-next {
       rotate: 180deg;
  }
- .text_resize{
-     width: 40%;
+ 
+ .text_resize {
+      width: 40%;
  }
  /* ---------------------------- Comment Section End ---------------------------- */
-  /* ---------------------------- Footer Section Begin ---------------------------- */
- footer{
-     background-color: #f8f8f8;
+ 
+ 
+ /* ---------------------------- Footer Section Begin ---------------------------- */
+ footer {
+      background-color: #f8f8f8;
  }
-   /* ---------------------------- Footer Section End ---------------------------- */
+ 
+ .text_resize_f {
+      width: 65%;
+ }
+ 
+ .icon {
+      font-size: 16px;
+      color: #F53838;
+      transition: 0.7;
+ }
+ .social {
+      display: flex;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+      justify-content: center;
+      align-items: center;
+ }
+ .social:hover {
+      background-color: #f0f0f0;
+ }
+ 
+ .copyright {
+      color: #AFB5C0;
+ }
+ 
+ .footer_head {
+      font-weight: 500;
+      color: #0B132A;
+      font-size: 18px;
+ }
+ 
+ .footer_link {
+      text-decoration: none;
+      color: #4F5665;
+      display: block;
+ }
+ 
+ .footer_link {
+      text-decoration: none;
+      color: #4F5665;
+      display: block;
+  }
+  
+ .footer_link:hover {
+      text-decoration: underline; 
+      color: #3A3F44; 
+ }
+  
+ /* ---------------------------- Footer Section End ---------------------------- */
+ 
+ 
  @media screen and (max-width: 768px) {
       .home {
            height: 100% !important;
       }
-      .text_resize{
-          width: 100%;
+      .text_resize {
+           width: 100%;
+      }
+      .text_resize_f {
+           width: 100%;
       }
  }
