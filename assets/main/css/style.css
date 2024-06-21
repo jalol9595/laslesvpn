@@ -253,7 +253,7 @@
  .comment-page .carousel-control-prev:hover,
  .comment-page .carousel-control-next:hover {
       background-color: #F53838;
-      background-image: url("/assets/main/images/netflix.svg");
+      background-image: url("/assets/main/images/next_arow.svg");
       rotate: 360deg;
  }
  .comment-page .carousel-control-prev:hover {
